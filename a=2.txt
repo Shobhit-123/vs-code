@@ -1,0 +1,359 @@
+# a=2
+# b=4
+# print("sum of given number is",a+b)
+
+# n1=int(input("enter the number:"))
+# n2=int(input("enter the number:"))
+# c=n1+n2
+# print("sum of two numbers",c)
+
+# a=float(input("enter the number"))
+# b=float(input("enter the number"))
+# z=a+b
+# print("sum of number",z)
+
+# t=81
+# square_root=t**(1/2)
+# print("square root of number",square_root)
+
+# a=float(input("enter the number"))
+# sqr=a**(1/2)
+# print("sr of the number",sqr)
+
+# import math
+# m1=int(input("enter the number"))
+# sr=math.sqrt(m1)
+# print("square root",sr)
+
+
+
+# import math
+# k=float(input("enter the number"))
+# sqr=math.sqrt(k)
+# print("square root of number :",k)
+
+# b=int(input("enter the number :"))
+# h=int(input("enter the number :"))
+# c=(1/2)*b*h
+# print("area of triangle :",c)
+
+# x=12
+# y=13
+# x,y=y,x
+# print("the value of x is :",x)
+# print("the value of y is :",y)
+
+# km=float(input("enter the number"))
+# mile=(0.621371)*km
+# print("km in miles",km,mile)
+
+# n=int(input("enter the number"))
+# if n>0:
+#     print("positive number")
+# elif n==0:
+#     print("neutral number")
+# else:
+#     print("negative number")
+
+# n=int(input("enter the number"))
+# if n%2==0:
+#     print("even number")
+# else:
+#     print("odd number")
+
+# y=int(input("enter the number"))
+# if(y%400==0) & (y%100==0):
+#     print("leap year",y)
+# elif(y%4==0) & (y%100!=0):
+#     print("is a leap year",y)
+# else:
+#     print("not a leap year")
+
+# n=int(input("enter the number"))
+# if n==1:
+#     print("not a prime")
+# if n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not a prime number")
+#             break
+#     else:
+#             print("is a prime number")
+
+
+# n=int(input("enter the number"))
+# if n==1:
+#     print("not a prime")
+# for i in range(2,n):
+#         if n%i==0:
+#             print("not a prime number")
+#             break
+# else:
+#             print(" is a prime number")
+
+
+
+# n=int(input("enter the number"))
+# if n==1:
+#      print("not a prime number")
+# for i in range(2,n):
+#         if n%i==0:
+#          print("not a prime number")
+#          break
+# else:
+#         print("prime number")
+
+# l=int(input("enter the number"))
+# u=int(input("enter the number"))
+# n=0
+# for n in range(l,u+1):
+#                 for i in range(2,n):
+#                  if n%i==0:
+#                   break
+#                 else:
+#                  print(n)
+
+# n=int(input("enter the number"))
+# if n==0:
+#     print("not a prime number")
+# if n>1:
+#         for i in range(2,n):
+#          if n%i==0:
+#                 print("not a prime number")
+#                 break
+#         else:
+#                 print("prime number")
+
+# l=int(input("enter the number"))
+# u=int(input("enter the number"))
+# n=0
+# for n in range(l,u+1):
+#            for i in range(2,n):
+#             if n%i==0:
+#               break
+#            else:
+#               print(n)
+
+# n=int(input("enter the number"))
+# if n==0:
+#     print("not a prime number")
+#     if n>1:
+#         for i in range(2,n):
+#          if n%i==0:
+#           print("not a prime no")
+#          break
+# else:
+#          print("is a prime number")
+
+
+# L=int(input("enter the number"))
+# U=int(input("enter the number"))
+# n=0
+# for n in range(L,U+1):
+#     for i in range (2,n):
+#           if n%i==0:
+#            break
+#           else:
+#            print(n)
+
+# c=int(input("enter the number"))
+# f=(c*9/5)+32
+# print("converting celsius into fahrenhite",f)
+
+
+# c=int(input("enter the number"))
+# f=(c*9/5)+32
+# print("converting c into f",f)
+
+# n=int(input("enter the number"))
+# f=1
+# while(n>0):
+#     f=f*n
+#     n=n-1
+# print("factorial number",f)
+
+# n=int(input("enter the number"))
+# f=1
+# while(n>0):
+#     f=f*n
+#     n=n-1
+# print("factorial number is ",f)
+
+# n=int(input("enter the number"))
+# x=0
+# y=1
+# z=0
+# while(z<=n):
+#     print(z)
+#     x=y
+#     y=z
+#     z=x+y
+
+
+# n=int(input("enter the number"))
+# for i in range(1,11):
+#     print(n,"x",i,"=",n*i)
+    
+
+# n=int(input("enter the number"))
+# sum=0
+# temp=n
+# while(temp>0):
+#     digit=temp%10
+#     cube=digit**3
+#     sum=sum+cube
+#     temp//=10
+# if(sum==n):
+#     print("armstrong number")
+# else:
+#     print("not a armstrong number")   
+
+
+
+
+
+
+
+# n=int(input("enter the number"))
+# sum=0
+# temp=n
+# while(temp>0):
+#     digit=temp%10
+#     cube=digit**3
+#     sum=cube+sum
+#     temp//=10
+# if(n==sum):
+#     print("armstrong number")
+# else:
+#     print("not a armstrong number")   
+
+
+
+
+
+
+# n=int(input("enter the number"))
+# s=0
+# t=n
+# while(t>0):
+#     digit=t%10
+#     cube=digit**3
+#     s=cube+s
+#     t//=10
+# if(n==s):
+#     print("armstrong number")
+# else:
+#     print("not armstrong number")
+        
+#fibonacci series
+
+# n=int(input("enter the number"))
+# x=0
+# y=1
+# z=0
+# while(z<=n):
+#     print(z)
+#     x=y
+#     y=z
+#     z=x+y
+
+# n=int(input("enter the number"))
+# i=1
+# s=0
+# while(i<=n):
+#     s=s+i
+#     i=i+1
+# print("sum of natural number",s)    
+
+
+
+# n=int(input("enter the number"))
+# s=0
+# i=1
+# while(i<=n):
+#     s=s+i
+#     i+=1
+# print("sum of natural number",s)
+
+
+#print("Mini Calculator")
+# a=float(input("enter the number"))
+# b=float(input("enter the number"))
+# print("1 sum of number")
+# print("2 subtraction of number")
+# print("3 Division of number")
+# print("4 Multiplication of number")
+# choice=int(input("enter the number"))
+# if choice==1:
+#     print(a+b)
+# elif choice==2:
+#     print(a-b)
+# elif choice==3:
+#     print(a/b)
+# elif choice==4:
+#     print(a*b)
+# else:
+#     print("Invalid number")
+
+
+# a=float(input("enter the number"))
+# b=float(input("enter the number"))
+# print("addition of number=1")
+# print("subtraction of number=2")
+# print("multiplication of number=3")
+# print("division of number=4")
+# n=int(input("enter the number"))
+# if n==1:
+#     print(a+b)
+# elif n==2:
+#     print(a-b)
+# elif n==3:
+#     print(a*b)
+# elif n==4:
+#     print(a/b)
+
+
+# import calendar
+# year=int(input("enter the number"))
+# month=int(input("enter the number"))
+# calendar=calendar.month(year,month)
+# print(calendar)
+
+# import calendar
+# year=int(input("enter the number"))
+# month=int(input("enter the number"))
+# calendar=calendar.month(year,month)
+# print(calendar)
+
+# l=[]
+# for a in range(1,101):
+#     l.append(a)
+    
+    
+
+# print(l)
+
+
+
+# n=[m for m in range(1,101)]
+# print(n)
+
+
+
+# n=[m for m in range(1,101) if(m%2==0) ]
+# print(n)
+
+
+def my_gen():
+    for i in range(1,11):
+        yield i
+
+a=my_gen()
+print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+print(next(a))
+
+
+
