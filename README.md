@@ -1,1 +1,1 @@
-# vs-code
+Python Mini Project
